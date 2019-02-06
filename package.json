@@ -10,5 +10,10 @@
     "typescript": "2.7.2",
     "webpack": "3.10.0",
     "webpack-dev-server": "2.9.7"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.120",
+    "lodash": "^4.17.11",
+    "tslib": "^1.9.3"
   }
 }

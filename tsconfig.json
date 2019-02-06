@@ -1,8 +1,43 @@
+
 {
+  // "include": ["src/**/*.ts"],
+  // "exclude": ["src/**/*.spec.ts"],
   "compilerOptions": {
+    // "declaration": true,
+    // "declarationDir": "./@types",
     "target": "es5",
     "module": "commonjs",
     "lib": ["dom", "es6"],
-    "outDir": "dist"
+    "outDir": "dist",
+    //"noEmitHelpers": true,
+    "importHelpers": true
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noFallthroughCasesInSwitch": true,
+    // "noImplicitReturns": true
+    //"traceResolution": true
+    //"diagnostics": true 
+    //"listFiles": true
+    //"listEmittedFiles": true
+    // "pretty": true
+    // "strict": true,
+    // "noImplicitAny": true,
+    // "noImplicitThis": true,
+    // "alwaysStrict": true,
+    // "strictNullChecks": true,
+    // "strictFunctionTypes": true,
+    // "strictPropertyInitialization": true
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true
+    // "typeRoots": [
+    //   "src/@types",
+    //   "node_modules/@types"
+    // ],
+    // "noEmitOnError": true,
+    // "noImplicitAny": true
+    
+    
+  
+    
   }
 }
